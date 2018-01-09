@@ -1,0 +1,37 @@
+@import "var";
+@import "mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $prim-font;
+}
+
+header {
+  a {
+    color: $white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.location {
+  background-color: $prim-color;
+  a span {
+    text-decoration: underline;
+    padding-left: 5px;
+  }
+}
+
+nav {
+  text-align: center;
+  background-color: $sec-color;
+  ul {
+    padding: 15px;
+  }
+}
